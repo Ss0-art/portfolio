@@ -90,27 +90,28 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <Card className="inline-block p-8 shadow-elegant">
-            <div className="flex items-center justify-center space-x-8">
-              <div className="text-center">
-                <MessageCircle className="w-8 h-8 text-primary mx-auto mb-2" />
-                <div className="text-lg font-semibold">Communication</div>
-                <div className="text-sm text-muted-foreground">Multilingual</div>
-              </div>
-              <div className="text-center">
-                <Lightbulb className="w-8 h-8 text-primary mx-auto mb-2" />
-                <div className="text-lg font-semibold">Innovation</div>
-                <div className="text-sm text-muted-foreground">Creative Solutions</div>
-              </div>
-              <div className="text-center">
-                <Users className="w-8 h-8 text-primary mx-auto mb-2" />
-                <div className="text-lg font-semibold">Collaboration</div>
-                <div className="text-sm text-muted-foreground">Team Player</div>
-              </div>
-            </div>
-          </Card>
-        </div>
+       <div className="mt-16 text-center">
+  <Card className="inline-block p-8 shadow-elegant overflow-x-auto">
+    <div className="flex items-center justify-start space-x-8 overflow-x-auto whitespace-nowrap">
+      <div className="text-center min-w-[150px]">
+        <MessageCircle className="w-8 h-8 text-primary mx-auto mb-2" />
+        <div className="text-lg font-semibold">Communication</div>
+        <div className="text-sm text-muted-foreground">Multilingual</div>
+      </div>
+      <div className="text-center min-w-[150px]">
+        <Lightbulb className="w-8 h-8 text-primary mx-auto mb-2" />
+        <div className="text-lg font-semibold">Innovation</div>
+        <div className="text-sm text-muted-foreground">Creative Solutions</div>
+      </div>
+      <div className="text-center min-w-[150px]">
+        <Users className="w-8 h-8 text-primary mx-auto mb-2" />
+        <div className="text-lg font-semibold">Collaboration</div>
+        <div className="text-sm text-muted-foreground">Team Player</div>
+      </div>
+    </div>
+  </Card>
+</div>
+
       </div>
     </section>
   );
